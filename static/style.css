@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "RobotoCondensed";
+    src: url(./fonts/RobotoCondensed-Regular.ttf);
+}
+
+@font-face {
+    font-family: "RobotoFlex";
+    src: url(./fonts/RobotoFlex-Regular.ttf);
+}
+
+@font-face {
+    font-family: "RobotoMono";
+    src: url(./fonts/RobotoMono-Regular.ttf);
+}
+
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    background-color: #252830;
+}
+
+.navbar-custom {
+    background-color: #1D1F25;
+}
+
+.nav-logo {
+    height: 2em;
+}
+
+nav .navbar-nav li a {
+    color: white !important;
+    font-family: "RobotoMono";
+}
+
+.main-container {
+    height: 70%;
+}
+
+.profilepic {
+    width: 50%;
+    height: auto;
+    border-radius: 100%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.about-area {
+    margin-top: 2em;
+}
+
+h1 {
+    color: #b9cce3;
+    font-family: "RobotoCondensed";
+    font-size: 5em;
+}
+
+.pre-name {
+    color: white;
+    font-family: 'Roboto Flex', sans-serif;
+    margin-bottom: 0;
+}
+
+.about {
+    color: white;
+    margin-top: 2em;
+    font-family: 'Roboto Flex', sans-serif;
+    margin-left: -1em;
+}
+
+.footer {
+    height: 7%;
+}
+
+.icon {
+   height: 40%;
+   margin-left: 0.5em;
+}
+
+.email {
+    color: white;
+    display: inline;
+    margin-left: 0.5em;
+    font-family: "RobotoMono";
+}
